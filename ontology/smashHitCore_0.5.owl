@@ -46,10 +46,6 @@
     <Prefix name="fibo-loan-loant-mloan" IRI="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoanTypes/MortgageLoans/"/>
     <Import>http://www.w3.org/2000/01/rdf-schema</Import>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:abstract"/>
-        <Literal>The adoption of GDPR has resulted in a significant shift in how the data of European Union citizens is handled. A variety of data sharing challenges in scenarios such as smart cities have arised, especially, when attempting to semantically represent GDPR legal basis, such as consent, contracts and the data types and specific data sources related to them. Many ontologies that model GDPR exist, however, they focus mainly on consent. In order to represent other GDPR basis such as contracts, multiple ontologies need to be reused. The process is time-consuming and requires expert knowledge of semantics. To solve this challenge, we present the smashHit Core ontology, which provides an unified and coherent model for both consent and contracts, as well as the sensor data and data processing associated with them, in one place. The ontology was developed in response to real-world data sharing use cases in the insurance and smart cities domains.</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
         <Literal xml:lang="en">smashHit project consortium partners (This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 871477)</Literal>
     </Annotation>
@@ -98,12 +94,8 @@
         <Literal xml:lang="en">Thorben Funke (Leibniz University Hannover)</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <Literal>The smashHit Core ontology extends the scope of existing ontologies by providing an integrated semantic model for multiple domains such as consent, contracts, licenses and sensor data. This work is part of the smashhit project, which is developing a framework for trusted and secure sharing of data streams from both personal and industrial platforms needed to build sectorial and cross-sectorial services. The ontology models multiple GDPR legal bases such as consent and contracts, but is not limited to them. Concepts such as metadata, sensor data, data processing, involved entities, which can be useful for compliance checking, are modelled as well.</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <Literal>smashHit Core Ontology</Literal>
+        <Literal>smashHitCore Ontology</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dct:license"/>
@@ -4271,7 +4263,9 @@ Division 60 also includes the broadcasting of this programme by the producer. Th
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>#NACESectionK</IRI>
-        <Literal xml:lang="en">This section includes Financial Service activities, including Insurance, Reinsurance and pension funding activities and activities to support financial services.</Literal>
+        <Literal xml:lang="en">This section includes Financial Service activities, including Insurance, Reinsurance and pension 
+        
+        activities and activities to support financial services.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
